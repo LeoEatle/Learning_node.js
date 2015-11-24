@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Test for Node.js</title>
+	</head>
+	<body>
+		<div>
+			<h1 style="margin:0,auto;">Hello, This Webpage is for Node.js</h1>
+			
+			<form action="http://127.0.0.1:8081/process_get" method = "GET">
+			HELLO THANK <input type="text" name = "YOU"> <br/>
+			
+			THANK YOU VERY <input type = "text" name = "MUCH">
+			
+			<input type="submit" value="Submit">
+			
+			
+			</form>
+			
+			<br>
+			<br>
+			
+			<h1>现在是关于POST的表单</h1>
+			
+			<form action="http://127.0.0.1:8081/process_post"method = "POST">
+			ARE YOU SILLY <input type="text" name = "B"> </BR>
+			VERY VERY <input type="text" name = "CHEAP">
+			
+			<input type="submit" value="submit">
+			
+			
+			</form>
+			<h1>现在是上传文件表单</h1>
+			<h2>选择一个文件上传</h2>
+			<form action="/file_upload" method="post" enctype="multipart/form-data">
+			<input type="file" name="image" size="50">
+			
+			<br>
+			<input type="submit" value="上传文件">
+			</form>
+			
+			
+			
+			
+		</div>
+		
+	</body>
+</html>
